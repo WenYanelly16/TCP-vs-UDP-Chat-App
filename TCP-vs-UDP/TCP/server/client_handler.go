@@ -7,7 +7,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/yourusername/go-chat-comparison/pkg"
+	"github.com/WenYanelly16/TCP-VS-UDP/pkg"
 )
 
 type Client struct {

@@ -5,7 +5,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/yourusername/go-chat-comparison/pkg"
+	"github.com/WenYanelly16/TCP-VS-UDP/pkg"
 )
 
 type Server struct {
