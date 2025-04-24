@@ -7,8 +7,6 @@ import (
 	"net"
 	"os"
 	"sync"
-
-	"github.com/yourusername/go-chat-comparison/pkg"
 )
 
 type Client struct {
