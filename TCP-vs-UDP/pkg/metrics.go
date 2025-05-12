@@ -13,6 +13,9 @@ type Metrics struct {
 	MaxLatency     time.Duration
 	MinLatency     time.Duration
 	DroppedPackets int
+	SystemDelays  time.Duration // Time spent in GC/scheduling
+    NetworkDelays time.Duration // Actual network I/O time
+
 }
 
 func NewMetrics() *Metrics {
